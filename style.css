@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    width: 17%;
+    height: 35px;
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(243, 243, 243);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+    background: 1px solid #333;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .material-icons{
+    padding: 0;
+    display: block;
+    color: #333;
+
+  }
+  .contenedor{
+    width: auto;
+    height: 600px;
+    color: white;
+    text-align: center;
+  }
+  .foto{
+    margin-top: 20px;
+    padding: 15px;
+    width: 26%;
+    height: 37%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%
+  }
+  @media only screen and (min-width:992px){
+    .foto{
+      width: 17%;
+    }
+
+  }
+  .txt-name{
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    margin-bottom: 0;
+  }
+  .cont-img{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: -200px;
+    
+  }
+  .img-desing{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 0px;
+
+  }
+  .seccion-style-dark{
+    width: auto;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #090218;  /* fallback for old browsers */
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .sec-parrafo{
+    margin: 50px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    text-align: center;
+  }
+  .text-aling{
+    padding: 20px 50px;
+    text-align: center;
+    margin: 0px;
+  }
+  p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    margin: 0px;    
+  }
+  .seccion-style-light{
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgb(24, 24, 24);
+    background-color: white;  /* fallback for old browsers */
+    padding: 10px;
+    border: 1px solid white;
+    margin: 15px;
+  }
+  .txt-sim{
+    font-family: 'Press Start 2P', cursive;
+    color: #090218;
+    height: 55px;
+  }
+  .proyecto img{
+    height: 100%;
+    width: 95%;
+    padding: 0px;
+    display: inline-block;
+    transition: all .9s ease;
+  }
+  .overlay{
+    transition: all .9s ease;
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+
+  }
+  .proyecto {
+    position: relative;
+    width: auto;
+    height: 300px;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  .overlay .iconos-cont {
+    display: block;
+  }
+
+  .overlay i {
+    color: white;
+    font-size: 60px;
+    margin: 10px;
+  }
+  .overlay p{
+    text-align: center;
+    padding: 15px;
+  }
+  .iconos-cont a:hover{
+    background-color: #463c5e00;
+    opacity: 1;
+  }
+  .mejoras-cont{
+    margin: 15px;
+  }
+  .mejoras-cont a{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgb(24, 24, 24);
+    padding: 10px;
+    text-decoration: none;
+  }
+  .container{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+  .contact-cont{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    color: white;
+    text-decoration:none;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .contact-cont a{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-decoration:none;
+  }
+
+  .contact-cont i{
+    color: white;
+    font-size: 35px;
+    transition: all 0.2s ease-in;
+  }
+  .contact-cont a:hover i{
+    color: #333;
+  }
+
+  .img-gif{
+    margin-top: 20px;
+    width: 15%;
+    height: 15%;
+    border-radius: 10px;
+  }
+
+
+
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
